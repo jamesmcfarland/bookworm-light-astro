@@ -3,10 +3,23 @@ title: software security in the age of ai
 meta_title: ""
 description: ""
 date: ""
-image: ""
+image: "/images/zdenek-machacek-mUSuM4qdZi4-unsplash.jpg"
 categories: []
-authors: []
-tags: []
+authors:
+  - James McFarland
+tags:
+  - ai
+  - security
 draft: false
 ---
+So this thought has been written with respect to the antrophic mythos release however it implications are most of the wider software industry outside security going forward and racing in the age of AI and there is a problem with us. Yes companies is a really really alarming and rather concerning the whole excel is not relevant it’s the fact that for tomorrow it goes well with the entirely for reasonable reason. Need to be the ones to hold it back or hide it in line with their own constitution in principle spot it worries me more so for the industry that we’ve already reached the point where this is needed itself as a significant at all the fact that request and behind I didn’t seem to help things because I had to it but nothing else else realistically open AI Google open AI and I’ll probably only 6 to 12 months behind if not and that was a real concern as well so as an industry we need to begin immediately to defence now not only using AI as a force multiplier for icing soft but we need to start using it as a force multiplied to secure our software we need to start performing AI tired adversary attacks eventually something like nothing AI agent or set reason to run since continuously in the close against all occasions constantly trying to break again reports for security problems before public model upset. We have no ability for a computer to run through automated and potentially novel attacks. I important caviar homeless is that whilst anthropic have released very promising French Mark this model is only available to private companies and then lose companies private groups at this time so we cannot independently verify their benchmarks or indeed the alleged performance of this model however ever it appears to be a natural stepping soon and a point which the industry is going to have to come to grips with coming forward.&#x20;
 
+I used to be use the little script kitty sitting running silly simulated hacking attempts against other resources on the public Internet Even I was able to find some vulnerability of issues in the software systems as a young unexperienced novice what we’ve got here now today is a model that exists in the world that is that no except it’s not novice with access to an unable number, unfathomable number of resources and information. This is not to say that we should be stopping available for these models they are an incredibly important capability.&#x20;
+
+And this also exacerbates and exposes a wider issue that is already very well and add documented device security and software as it’s the fact that distribution is a problem for update users do not update their software as often as they should nor do they know they should. Some products do not even have update mechanisms readily available may not be in Internet connected they may be connected by manual intervention and they are the real real real concerning part. How we solve this as an industry, I don’t know. It could take many forms that could be fresher put on these companies to put the engineering effort into securing their entire lineup. This is expensive. This is politically challenging but not impossible. They would prove difficult for companies which are shut down being bored changed their operating nature. The other approach could be a community driven effort in order to proactively go fix an update this offer however doing that successfully and it not just being scooped to developers would be a very tricky thing to get right so that is an ongoing concern as well potentially it looks like either of those things and we have to deal with the fact that devices in our homes houses officers cars are insecure and well 2°. They are they are insecure that the fact that they have not yet been breached does not make them secured today. New products going forward must an absolutely must be built and designed with the security threatening mind the threat that throughout this product’s life‘s fun we are going to see attacks constant barrages of attacks on them.&#x20;
+
+I believe in this regard we need to fight Fire with Fire. We need to have adversarial models that can run against our applications and be what is currently our blue teams red teams et cetera because our security out of series are using these and we need to start using them to defend an applications and that responsibility does not lie with a company cyber security operation Centre it does not rely or does not lie with a platform team. It lies with each and every individual developer
+
+There’s a lot of talk around what AGI looks like what a software engineer will look like in 3, 6 12 months from now and we don’t know because we don’t know where the towing will go where the economics will go where the capability will go what is a shift shift bigger than what we’ve seen already.&#x20;
+
+​
