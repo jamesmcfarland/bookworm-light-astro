@@ -1,0 +1,73 @@
+{
+  "file": "src/content/authors/john-doe.md",
+  "name": "authors",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "meta_title",
+      "label": "Meta Title",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "social",
+      "label": "Social",
+      "type": "object",
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "facebook",
+          "label": "Facebook",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "x",
+          "label": "X",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "linkedin",
+          "label": "Linkedin",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}
