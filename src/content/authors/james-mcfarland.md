@@ -7,6 +7,6 @@ description: "Software Engineer from Northern Ireland specialising in UI,
 social:
   facebook: ""
   x: ""
-  linkedin: https://www.linkedin.com/in/jamesmcfarland/
+  linkedin: https://www.linkedin.com/in/jamesmcfarland
 ---
 Software Engineer from Northern Ireland specialising in UI, security and delivery.
