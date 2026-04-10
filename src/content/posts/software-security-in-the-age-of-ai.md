@@ -2,7 +2,7 @@
 title: software security in the age of ai
 meta_title: ""
 description: ""
-date: ""
+date: 2026-04-10T11:59:00.000Z
 image: "/images/zdenek-machacek-mUSuM4qdZi4-unsplash.jpg"
 categories: []
 authors:
@@ -21,5 +21,3 @@ And this also exacerbates and exposes a wider issue that is already very well an
 I believe in this regard we need to fight Fire with Fire. We need to have adversarial models that can run against our applications and be what is currently our blue teams red teams et cetera because our security out of series are using these and we need to start using them to defend an applications and that responsibility does not lie with a company cyber security operation Centre it does not rely or does not lie with a platform team. It lies with each and every individual developer
 
 There’s a lot of talk around what AGI looks like what a software engineer will look like in 3, 6 12 months from now and we don’t know because we don’t know where the towing will go where the economics will go where the capability will go what is a shift shift bigger than what we’ve seen already.&#x20;
-
-​
