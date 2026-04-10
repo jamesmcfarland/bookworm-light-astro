@@ -1,6 +1,5 @@
 {
   "file": "src/content/authors/john-doe.md",
-  "name": "authors",
   "fileType": "md",
   "fmType": "yaml",
   "template": [
@@ -43,22 +42,6 @@
       "isIgnored": false,
       "defaultValue": "",
       "fields": [
-        {
-          "name": "facebook",
-          "label": "Facebook",
-          "type": "string",
-          "value": "",
-          "isIgnored": false,
-          "defaultValue": ""
-        },
-        {
-          "name": "x",
-          "label": "X",
-          "type": "string",
-          "value": "",
-          "isIgnored": false,
-          "defaultValue": ""
-        },
         {
           "name": "linkedin",
           "label": "Linkedin",
