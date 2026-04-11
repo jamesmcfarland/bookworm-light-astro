@@ -68,7 +68,7 @@ capability are likely coming, and we need to be ready.
 ## Why does this even matter?
 
 A lot of software and connected devices are already far less secure than
-people assume. Many real-world attacks do not require high-level capability;
+people assume. Many real-world attacks do not require elite expertise;
 they rely on common weaknesses, persistence, and a willingness to try
 known techniques repeatedly until something works.
 
@@ -81,18 +81,20 @@ permissions, default credentials, poor authentication flows) is already
 widely available, and these are exactly the kinds of patterns that
 models can absorb and apply.
 
-Take a category many will have in their homes: robot hoovers,
-cameras, smart bulbs, plugs, and other connected devices. AI-assisted
-attack workflows lower the cost of trying the same low-skill or
-moderately skilled attacks across a huge number of targets. Then expand
-that idea to every connected device. The fact they're made by different manufacturers with _slightly_ different firmwares and architectures may be the thing that's kept them somewhat "secure" until now.
+Take a category many will have in their homes: robot hoovers, cameras,
+smart bulbs, plugs, and other connected devices. AI-assisted attack
+workflows lower the cost of trying the same low-skill or moderately
+skilled attacks across a huge number of targets. Then expand that idea
+to every connected device. In many cases, variation between
+manufacturers, firmware, and hardware may have acted as a kind of
+accidental protection against large-scale automated exploitation.
 
 ## What this means for security
 
 When I was younger, I was exactly the sort of script kiddie running
-basic **simulated** attacks against systems. Even as
-an inexperienced novice, it was possible to find vulnerabilities or
-misconfigurations in poorly defended software systems.
+basic **simulated** attacks against systems. Even as an inexperienced
+novice, it was possible to find vulnerabilities or misconfigurations in
+poorly defended software systems.
 
 What we have now is not just that same level of curiosity or trial and
 error. We now have models that can play a similar role, except they are
@@ -153,7 +155,11 @@ applications and systems in the same way that red teams, blue teams, and
 security researchers do today. If attackers are using these tools, and
 they increasingly will be, then defenders need to use them too.
 
-Take a web system for example. Create an environment identical to production, with as much realistic data as possible. Isolate it, and a set of agentic models against it with the goal of finding flaws and holes. Let them operate and evaluate their findings. Perhaps this could be a part of the applications CI/CD pipeline.
+Take a web system, for example. Create an environment identical to
+production, with as much realistic data as possible. Isolate it, and run
+a set of agentic models against it with the goal of finding flaws and
+holes. Let them operate autonomously within that environment and see how
+they perform. Perhaps this could be a part of an applications CI/CD pipeline
 
 That does not mean responsibility sits only with a company’s security
 operations centre or a platform team. Security has to be treated as a
@@ -161,5 +167,5 @@ shared engineering responsibility. Individual developers, platform
 teams, security engineers, and product organisations all need to push
 for and advocate for more secure systems.
 
-AI is already a force multiplier for writing software. It now
-also needs to become a force multiplier for securing it.
+AI is already a force multiplier for writing software. It now also needs
+to become a force multiplier for securing it.
