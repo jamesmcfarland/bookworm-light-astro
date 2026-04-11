@@ -18,7 +18,7 @@
   "metadata": {
     "meta_author": "James McFarland",
     "meta_image": "/images/me.jpeg",
-    "meta_description": "Bookworm Light Astro Blog Template"
+    "meta_description": "James McFarland's Engineering blog"
   },
 
   "google_tag_manager": {
@@ -28,6 +28,6 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2025 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2026 James McFarland"
   }
 }

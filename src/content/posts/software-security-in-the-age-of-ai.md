@@ -12,11 +12,11 @@ tags:
 draft: false
 ---
 
-This post was written in response to the Claude Mythos news; however,
+_This post was written in response to the Claude Mythos news; however,
 its implications reach far beyond Anthropic and apply to much of the
-wider software and security industry.
+wider software and security industry._
 
-## Claude Mythos
+### Claude Mythos
 
 The Mythos model represents a jump in capability that we have not seen
 in a while, and I’d recommend reading the system card rather than having
@@ -34,7 +34,7 @@ meticulously and persistently.
 There are a few different areas within this news that are worth breaking
 down.
 
-## The benchmarks
+### The benchmarks
 
 An important caveat is that, whilst Anthropic have released very
 promising benchmarks, this model is only available to private groups at
@@ -45,7 +45,7 @@ Even so, this appears to be a large but natural step forward in
 capability, and one that the industry is going to have to come to grips
 with.
 
-## The private model
+### The private model
 
 The model being held back is, to me, both understandable and concerning.
 Anthropic appear to feel they need to restrict access in line with their
@@ -65,7 +65,7 @@ in the threat landscape, but also make constructive use of the same
 capabilities on the defensive side. Public models with Mythos-like
 capability are likely coming, and we need to be ready.
 
-## Why does this even matter?
+### Why does this even matter?
 
 A lot of software and connected devices are already far less secure than
 people assume. Many real-world attacks do not require elite expertise;
@@ -89,7 +89,7 @@ to every connected device. In many cases, variation between
 manufacturers, firmware, and hardware may have acted as a kind of
 accidental protection against large-scale automated exploitation.
 
-## What this means for security
+### What this means for security
 
 When I was younger, I was exactly the sort of script kiddie running
 basic **simulated** attacks against systems. Even as an inexperienced
@@ -108,7 +108,7 @@ do from both an educational and practical standpoint is remarkable. But
 we do need to be realistic about what they mean for the security
 baseline of the systems we build.
 
-## Distribution
+### Distribution
 
 This also exacerbates and exposes a wider issue that is already very
 well documented in software and device security: distribution and
@@ -146,7 +146,7 @@ New products absolutely must be designed with this threat model in mind.
 We should assume that throughout a product’s lifetime it will face
 constant, automated, and increasingly capable attack attempts.
 
-## Going forward
+### Going forward
 
 I believe we need to fight fire with fire.
 

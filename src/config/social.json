@@ -1,29 +1,14 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
-      "name": "X",
-      "icon": "FaXTwitter",
-      "link": "https://x.com/"
-    },
-    {
-      "name": "instagram",
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/"
-    },
-    {
       "name": "linkedin",
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/in/jamesmcfarland"
     },
     {
       "name": "YouTube",
-      "icon": "FaYoutube",
-      "link": "https://www.youtube.com/"
+      "icon": "FaEnvelope",
+      "link": "mailto:james@jamesmcfarland.dev"
     }
   ]
 }
