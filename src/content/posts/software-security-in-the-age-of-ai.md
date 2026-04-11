@@ -12,39 +12,154 @@ tags:
 draft: false
 ---
 
-So this has been written in response to the Claude Mythos news; however, its implications are for most of the wider software industry and security going forward.
+This post was written in response to the Claude Mythos news; however,
+its implications reach far beyond Anthropic and apply to much of the
+wider software and security industry.
 
-Claude Mythos
+## Claude Mythos
 
-The Mythos model is a jump in capability we’ve not seen in a while, and I’d recommend reading through the system card, as I don’t want to rehash its claims or notes in here. In essence, it’s a highly capable model which, like state-of-the-art (SoTA) models before it, lowers the barrier to entry to technical tasks. This time, that barrier is the one that surrounds security, penetration testing, and vulnerability research.
+The Mythos model represents a jump in capability that we have not seen
+in a while, and I’d recommend reading the system card rather than having
+me rehash its claims here. In essence, it is a highly capable model
+which, like state-of-the-art (SoTA) models before it, lowers the barrier
+to entry for technical tasks. This time, that barrier appears to be the
+one surrounding security, penetration testing, and vulnerability
+research.
 
-We’re at the point where, costs aside, a fully autonomous system can run attacks against a particular target, working on different facets in parallel and meticulously without stopping.
+We are getting to the point where, cost and access aside, increasingly
+autonomous systems can run meaningful attack workflows against a
+particular target, exploring different avenues in parallel and doing so
+meticulously and persistently.
 
-There’s a few different areas within this news and topic to break down.
+There are a few different areas within this news that are worth breaking
+down.
 
-The benchmarks
+## The benchmarks
 
-An important caveat is that, whilst Anthropic have released very promising benchmarks, this model is only available to private groups at this time, so we cannot independently verify their benchmarks or indeed the alleged performance of this model. However, it appears to be a large but natural stepping stone and a capability which the industry is going to have to come to grips with going forward.
+An important caveat is that, whilst Anthropic have released very
+promising benchmarks, this model is only available to private groups at
+the time of writing. That means we cannot independently verify those
+benchmarks, or the model’s real-world performance more broadly.
 
-The private model
+Even so, this appears to be a large but natural step forward in
+capability, and one that the industry is going to have to come to grips
+with.
 
-The model being held back is rather alarming to me. Anthropic feel they need to be the ones to hold it back in line with their own constitution, doing AGI safely, and in principle they are right. The issue with this is that AI capabilities proliferate fast. OpenAI, Google, etc. are never more than a few months behind, and it is probable they already have a model like this. Hiding behind closed doors and private groups protects things in the short term, but does nothing to address the longer-term concerns that are on the table. We should have the model’s capabilities laid bare so we as engineers can begin to adapt and build our future systems to not only handle the threat, but use these model capabilities for good. Public models with Mythos’s capability are coming, and we need to be ready.
+## The private model
 
-Why does this even matter?
+The model being held back is, to me, both understandable and concerning.
+Anthropic appear to feel they need to restrict access in line with their
+constitution and their stated goal of doing AGI safely, and in principle
+that makes sense.
 
-There's a lot of stories about devices being hacked. Hacking is not hard at all - it takes a bit of knowledge, perserverance and some creativity. It is by no means hard. I'd make a bet that the majority of "smart home" devices could be breached with very minimal effort. It's just that no one has invested the time or effort to do so, due to lack of ROI. The knowledge on common security flaws (think buffer overflows, overly excessive permissions, default credentials) is very widely available and will be baked into these models. As an example that many reading this will have in their homes - this potentially allows these low-skill attacks to be ran against a massive set of targets, from well known robot hoobers to no-name knockoff smart bulbs. Expand that scope to every connected device.
+The issue is that AI capabilities tend to proliferate quickly. OpenAI,
+Google, and others are usually not far behind one another, and it would
+be surprising if similar capabilities were not already being explored
+elsewhere. Keeping a model behind closed doors and limiting it to
+private groups may reduce short-term risk, but it does little to address
+the longer-term concerns now on the table.
 
-What this means for security
+As engineers, we need to understand the shape of these capabilities so
+that we can adapt and build systems that not only withstand this shift
+in the threat landscape, but also make constructive use of the same
+capabilities on the defensive side. Public models with Mythos-like
+capability are likely coming, and we need to be ready.
 
-I used to be that little script kid sitting running simulated hacking attempts against other resources on the public Internet. Even I was able to find some vulnerabilities or issues in software systems as a young, inexperienced novice. What we’ve got today is a model that exists in the world that is that script kid, except it’s not a novice, with access to an unending, unfathomable number of resources and information. This is not to say that we should be stopping development of or access to these models; they are an incredibly important capability. What they can do from an educational and even practical standpoint is amazing.
+## Why does this even matter?
 
-Distribution
+A lot of software and connected devices are already far less secure than
+people assume. Many real-world attacks do not require high-level capability;
+they rely on common weaknesses, persistence, and a willingness to try
+known techniques repeatedly until something works.
 
-This also exacerbates and exposes a wider issue that is already very well documented in device security and software, and it’s the fact that distribution is a problem for updates. Users do not update their software as often as they should, nor do they know they should. Some products do not even have update mechanisms readily available, may not be Internet-connected, or may be connected only by manual intervention, and they are the really, really, really concerning part.
+I would be willing to bet that the majority of “smart home” devices
+could be compromised with relatively little effort. In many cases, it is
+not that the attacks are impossible or especially novel; it is that few
+people have had the incentive to spend the time doing it at scale. The
+knowledge around common security flaws (buffer overflows, excessive
+permissions, default credentials, poor authentication flows) is already
+widely available, and these are exactly the kinds of patterns that
+models can absorb and apply.
 
-How do we solve this as an industry? I don’t know. It could take many forms.
-There could be pressure put on device manufacturers to put engineering effort into securing their lineup. This is expensive, politically challenging, but not impossible. It would prove difficult for companies which are shut down, who have been bought, changed direction, or altered in their operating nature. The other approach could be a community-driven effort in order to proactively build fix and update devices; however, doing that successfully, and it not just being known about to developers, would be a very tricky thing to get right - plus you'd be relying on co-operation with the manufacturers to release the source code, update mechanisms etc.
+Take a category many will have in their homes: robot hoovers,
+cameras, smart bulbs, plugs, and other connected devices. AI-assisted
+attack workflows lower the cost of trying the same low-skill or
+moderately skilled attacks across a huge number of targets. Then expand
+that idea to every connected device. The fact they're made by different manufacturers with _slightly_ different firmwares and architectures may be the thing that's kept them somewhat "secure" until now.
 
-Going forward
+## What this means for security
 
-I believe in this regard we need to fight fire with fire. We need to have adversarial models that can run against our applications and act as what are currently our blue teams and red teams, etc., because our security adversaries are using these and we need to start using them to defend our applications and systems. That responsibility does not lie with a company’s cyber security operations centre, nor does it lie with a platform team. It lies with each and every individual developer to push for and advocate for secure systems.
+When I was younger, I was exactly the sort of script kiddie running
+basic **simulated** attacks against systems. Even as
+an inexperienced novice, it was possible to find vulnerabilities or
+misconfigurations in poorly defended software systems.
+
+What we have now is not just that same level of curiosity or trial and
+error. We now have models that can play a similar role, except they are
+not novices: they have access to vast amounts of information, can work
+persistently, and can iterate far faster than a person manually trying
+things one at a time.
+
+This is not to say that we should stop developing or using these
+models. They are an incredibly important capability, and what they can
+do from both an educational and practical standpoint is remarkable. But
+we do need to be realistic about what they mean for the security
+baseline of the systems we build.
+
+## Distribution
+
+This also exacerbates and exposes a wider issue that is already very
+well documented in software and device security: distribution and
+updates remain a major weak point.
+
+Users do not update their software as often as they should, and often do
+not know that they need to. Some products do not even have proper update
+mechanisms. Others are not Internet-connected, or are only updated
+through manual intervention. Those systems are the really concerning
+part.
+
+How do we solve that as an industry? I do not know, and I do not think
+there is a single answer.
+
+One option is greater pressure on device manufacturers to invest the
+engineering effort needed to secure and maintain their products across
+their full supported lifetime. That is expensive and politically
+difficult, but not impossible. It becomes especially difficult when
+companies shut down, are acquired, change direction, or otherwise stop
+supporting products that remain deployed in the world.
+
+Another possibility is some kind of community-driven effort to maintain
+or update unsupported devices. In theory, that could help; in practice,
+making that work safely, legally, and at scale would be extremely
+difficult. It would also rely on cooperation from manufacturers around
+source code, documentation, signing keys, update mechanisms, and other
+practical constraints.
+
+Either way, we still have to deal with the fact that many devices in our
+homes, offices, and cars are insecure. The fact that they have not yet
+been breached does not mean they are secure. It may simply mean that no
+one has put sustained effort into breaking them yet.
+
+New products absolutely must be designed with this threat model in mind.
+We should assume that throughout a product’s lifetime it will face
+constant, automated, and increasingly capable attack attempts.
+
+## Going forward
+
+I believe we need to fight fire with fire.
+
+We need defensive and adversarial models that can run against our
+applications and systems in the same way that red teams, blue teams, and
+security researchers do today. If attackers are using these tools, and
+they increasingly will be, then defenders need to use them too.
+
+Take a web system for example. Create an environment identical to production, with as much realistic data as possible. Isolate it, and a set of agentic models against it with the goal of finding flaws and holes. Let them operate and evaluate their findings. Perhaps this could be a part of the applications CI/CD pipeline.
+
+That does not mean responsibility sits only with a company’s security
+operations centre or a platform team. Security has to be treated as a
+shared engineering responsibility. Individual developers, platform
+teams, security engineers, and product organisations all need to push
+for and advocate for more secure systems.
+
+AI is already a force multiplier for writing software. It now
+also needs to become a force multiplier for securing it.
