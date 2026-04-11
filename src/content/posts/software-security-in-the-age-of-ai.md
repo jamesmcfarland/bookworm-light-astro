@@ -1,11 +1,12 @@
 ---
 title: software security in the age of ai
-meta_title: ""
+meta_title: "software security in the age of ai"
 description: ""
 date: 2026-04-10T11:59:00.000Z
-image: "/images/zdenek-machacek-mUSuM4qdZi4-unsplash.jpg"
+image: "/images/nano-banana-2-kn73hq7nwhc3ezk38fvxtq3heh84mejq.png"
 categories: []
-authors: ["James McFarland"]
+authors:
+  - James McFarland
 tags:
   - ai
   - security
