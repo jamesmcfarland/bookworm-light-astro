@@ -13,6 +13,27 @@ tags:
 draft: false
 ---
 
+<details>
+<summary>Cover image prompt</summary>
+
+Create a clean, sharp, modern SaaS-style blog cover image for an article about software security in the age of AI. The theme is AI-assisted cyber defence versus AI-assisted attack. Show an abstract, high-end engineering aesthetic: dark or neutral background, precise geometric forms, subtle glowing network lines, layered system diagrams, defensive boundaries, and autonomous agents probing a secure digital environment. Suggest ideas like continuous adversarial testing, attack paths, threat modelling, and resilient infrastructure, but keep it abstract and tasteful rather than literal or cheesy.
+
+Style: premium developer tooling brand, similar to Cloudflare's blog, Linear, Vercel, Stripe, or a high-quality security startup. Minimal, polished, technical, elegant, editorial. Avoid stock art, shields, padlocks, hooded hackers, binary rain, or generic cyberpunk clichés.
+
+Composition: strong focal point, lots of negative space for title overlay, landscape blog-header format, balanced and structured like a product engineering illustration. Use crisp lines, subtle gradients, soft glows, depth, and restrained detail.
+
+Visual motifs: abstract secure system architecture, AI agents as moving nodes or light traces, segmented trust boundaries, monitored infrastructure, attack simulation in a sandboxed environment, connected devices or services represented as minimal icons or blocks. Convey that software is under constant automated pressure, but defended by equally advanced systems.
+
+Color palette: charcoal, slate, soft whites, cool greys, deep blues, with restrained accents of electric cyan or amber. High contrast, premium, clean.
+
+Mood: calm, intelligent, rigorous, high-quality engineering, proactive security, modern infrastructure, technically optimistic but serious.
+
+No text, no logos, no UI screenshots, no people, no photorealism
+
+---
+
+</details>
+
 _This post was written in response to the Claude Mythos news; however,
 its implications reach far beyond Anthropic and apply to much of the
 wider software and security industry._
