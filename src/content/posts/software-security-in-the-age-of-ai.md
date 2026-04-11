@@ -5,19 +5,46 @@ description: ""
 date: 2026-04-10T11:59:00.000Z
 image: "/images/zdenek-machacek-mUSuM4qdZi4-unsplash.jpg"
 categories: []
-authors:
-  - James McFarland
+authors: ["James McFarland"]
 tags:
   - ai
   - security
 draft: false
 ---
-So this thought has been written with respect to the antrophic mythos release however it implications are most of the wider software industry outside security going forward and racing in the age of AI and there is a problem with us. Yes companies is a really really alarming and rather concerning the whole excel is not relevant it’s the fact that for tomorrow it goes well with the entirely for reasonable reason. Need to be the ones to hold it back or hide it in line with their own constitution in principle spot it worries me more so for the industry that we’ve already reached the point where this is needed itself as a significant at all the fact that request and behind I didn’t seem to help things because I had to it but nothing else else realistically open AI Google open AI and I’ll probably only 6 to 12 months behind if not and that was a real concern as well so as an industry we need to begin immediately to defence now not only using AI as a force multiplier for icing soft but we need to start using it as a force multiplied to secure our software we need to start performing AI tired adversary attacks eventually something like nothing AI agent or set reason to run since continuously in the close against all occasions constantly trying to break again reports for security problems before public model upset. We have no ability for a computer to run through automated and potentially novel attacks. I important caviar homeless is that whilst anthropic have released very promising French Mark this model is only available to private companies and then lose companies private groups at this time so we cannot independently verify their benchmarks or indeed the alleged performance of this model however ever it appears to be a natural stepping soon and a point which the industry is going to have to come to grips with coming forward.&#x20;
 
-I used to be use the little script kitty sitting running silly simulated hacking attempts against other resources on the public Internet Even I was able to find some vulnerability of issues in the software systems as a young unexperienced novice what we’ve got here now today is a model that exists in the world that is that no except it’s not novice with access to an unable number, unfathomable number of resources and information. This is not to say that we should be stopping available for these models they are an incredibly important capability.&#x20;
+So this has been written in response to the Claude Mythos news; however, its implications are for most of the wider software industry and security going forward.
 
-And this also exacerbates and exposes a wider issue that is already very well and add documented device security and software as it’s the fact that distribution is a problem for update users do not update their software as often as they should nor do they know they should. Some products do not even have update mechanisms readily available may not be in Internet connected they may be connected by manual intervention and they are the real real real concerning part. How we solve this as an industry, I don’t know. It could take many forms that could be fresher put on these companies to put the engineering effort into securing their entire lineup. This is expensive. This is politically challenging but not impossible. They would prove difficult for companies which are shut down being bored changed their operating nature. The other approach could be a community driven effort in order to proactively go fix an update this offer however doing that successfully and it not just being scooped to developers would be a very tricky thing to get right so that is an ongoing concern as well potentially it looks like either of those things and we have to deal with the fact that devices in our homes houses officers cars are insecure and well 2°. They are they are insecure that the fact that they have not yet been breached does not make them secured today. New products going forward must an absolutely must be built and designed with the security threatening mind the threat that throughout this product’s life‘s fun we are going to see attacks constant barrages of attacks on them.&#x20;
+Claude Mythos
 
-I believe in this regard we need to fight Fire with Fire. We need to have adversarial models that can run against our applications and be what is currently our blue teams red teams et cetera because our security out of series are using these and we need to start using them to defend an applications and that responsibility does not lie with a company cyber security operation Centre it does not rely or does not lie with a platform team. It lies with each and every individual developer
+The Mythos model is a jump in capability we’ve not seen in a while, and I’d recommend reading through the system card, as I don’t want to rehash its claims or notes in here. In essence, it’s a highly capable model which, like state-of-the-art (SoTA) models before it, lowers the barrier to entry to technical tasks. This time, that barrier is the one that surrounds security, penetration testing, and vulnerability research.
 
-There’s a lot of talk around what AGI looks like what a software engineer will look like in 3, 6 12 months from now and we don’t know because we don’t know where the towing will go where the economics will go where the capability will go what is a shift shift bigger than what we’ve seen already.&#x20;
+We’re at the point where, costs aside, a fully autonomous system can run attacks against a particular target, working on different facets in parallel and meticulously without stopping.
+
+There’s a few different areas within this news and topic to break down.
+
+The benchmarks
+
+An important caveat is that, whilst Anthropic have released very promising benchmarks, this model is only available to private groups at this time, so we cannot independently verify their benchmarks or indeed the alleged performance of this model. However, it appears to be a large but natural stepping stone and a capability which the industry is going to have to come to grips with going forward.
+
+The private model
+
+The model being held back is rather alarming to me. Anthropic feel they need to be the ones to hold it back in line with their own constitution, doing AGI safely, and in principle they are right. The issue with this is that AI capabilities proliferate fast. OpenAI, Google, etc. are never more than a few months behind, and it is probable they already have a model like this. Hiding behind closed doors and private groups protects things in the short term, but does nothing to address the longer-term concerns that are on the table. We should have the model’s capabilities laid bare so we as engineers can begin to adapt and build our future systems to not only handle the threat, but use these model capabilities for good. Public models with Mythos’s capability are coming, and we need to be ready.
+
+Why does this even matter?
+
+There's a lot of stories about devices being hacked. Hacking is not hard at all - it takes a bit of knowledge, perserverance and some creativity. It is by no means hard. I'd make a bet that the majority of "smart home" devices could be breached with very minimal effort. It's just that no one has invested the time or effort to do so, due to lack of ROI. The knowledge on common security flaws (think buffer overflows, overly excessive permissions, default credentials) is very widely available and will be baked into these models. As an example that many reading this will have in their homes - this potentially allows these low-skill attacks to be ran against a massive set of targets, from well known robot hoobers to no-name knockoff smart bulbs. Expand that scope to every connected device.
+
+What this means for security
+
+I used to be that little script kid sitting running simulated hacking attempts against other resources on the public Internet. Even I was able to find some vulnerabilities or issues in software systems as a young, inexperienced novice. What we’ve got today is a model that exists in the world that is that script kid, except it’s not a novice, with access to an unending, unfathomable number of resources and information. This is not to say that we should be stopping development of or access to these models; they are an incredibly important capability. What they can do from an educational and even practical standpoint is amazing.
+
+Distribution
+
+This also exacerbates and exposes a wider issue that is already very well documented in device security and software, and it’s the fact that distribution is a problem for updates. Users do not update their software as often as they should, nor do they know they should. Some products do not even have update mechanisms readily available, may not be Internet-connected, or may be connected only by manual intervention, and they are the really, really, really concerning part.
+
+How do we solve this as an industry? I don’t know. It could take many forms.
+There could be pressure put on device manufacturers to put engineering effort into securing their lineup. This is expensive, politically challenging, but not impossible. It would prove difficult for companies which are shut down, who have been bought, changed direction, or altered in their operating nature. The other approach could be a community-driven effort in order to proactively build fix and update devices; however, doing that successfully, and it not just being known about to developers, would be a very tricky thing to get right - plus you'd be relying on co-operation with the manufacturers to release the source code, update mechanisms etc.
+
+Going forward
+
+I believe in this regard we need to fight fire with fire. We need to have adversarial models that can run against our applications and act as what are currently our blue teams and red teams, etc., because our security adversaries are using these and we need to start using them to defend our applications and systems. That responsibility does not lie with a company’s cyber security operations centre, nor does it lie with a platform team. It lies with each and every individual developer to push for and advocate for secure systems.
