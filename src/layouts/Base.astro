@@ -10,6 +10,7 @@ import {
   GoogleTagmanager,
   GoogleTagmanagerNoscript,
 } from "@digi4care/astro-google-tagmanager";
+import Analytics from "@vercel/analytics/astro";
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
 
@@ -167,5 +168,6 @@ const { title, meta_title, description, image, noindex, canonical } =
       <slot />
     </main>
     <Footer />
+    <Analytics />
   </body>
 </html>
