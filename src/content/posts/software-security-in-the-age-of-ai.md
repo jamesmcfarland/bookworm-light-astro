@@ -13,10 +13,12 @@ tags:
 draft: false
 ---
 
-<details>
-<summary>Cover image prompt</summary>
+Haven't you heard enough about AI already?! <div></div>
 
-Create a clean, sharp, modern SaaS-style blog cover image for an article about software security in the age of AI. The theme is AI-assisted cyber defence versus AI-assisted attack. Show an abstract, high-end engineering aesthetic: dark or neutral background, precise geometric forms, subtle glowing network lines, layered system diagrams, defensive boundaries, and autonomous agents probing a secure digital environment. Suggest ideas like continuous adversarial testing, attack paths, threat modelling, and resilient infrastructure, but keep it abstract and tasteful rather than literal or cheesy.
+<details>
+<summary>For transparency, here's the cover image prompt</summary>
+
+: Create a clean, sharp, modern SaaS-style blog cover image for an article about software security in the age of AI. The theme is AI-assisted cyber defence versus AI-assisted attack. Show an abstract, high-end engineering aesthetic: dark or neutral background, precise geometric forms, subtle glowing network lines, layered system diagrams, defensive boundaries, and autonomous agents probing a secure digital environment. Suggest ideas like continuous adversarial testing, attack paths, threat modelling, and resilient infrastructure, but keep it abstract and tasteful rather than literal or cheesy.
 
 Style: premium developer tooling brand, similar to Cloudflare's blog, Linear, Vercel, Stripe, or a high-quality security startup. Minimal, polished, technical, elegant, editorial. Avoid stock art, shields, padlocks, hooded hackers, binary rain, or generic cyberpunk clichés.
 
