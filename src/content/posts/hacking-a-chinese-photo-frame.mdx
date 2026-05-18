@@ -15,7 +15,7 @@ tags:
 draft: false
 ---
 
-I was gifted a cheap Chinese digital photo frame.
+I was gifted a Chinese digital photo frame.
 
 As gifts go, this was excellent, because it was also obviously a bit cursed.
 
@@ -47,7 +47,7 @@ In other words: not modern, not trustworthy, but probably hackable.
 <Tabs client:load>
 <Tab name="What it was">
 
-- Cheap Wi-Fi photo frame
+- Wi-Fi photo frame
 - Actually an Android 6 Rockchip tablet
 - OEM launcher at `com.waophoto.smartframe`
 - Update-related packages including `com.adups.fota`
@@ -77,7 +77,7 @@ In other words: not modern, not trustworthy, but probably hackable.
 
 The first question was whether this was a locked appliance or just a generic Android system wearing a photo-frame costume.
 
-It did not take long to answer. USB ADB was available immediately, and once I had a shell it became clear that the frame was much closer to "cheap tablet with a custom launcher" than "sealed embedded appliance".
+It did not take long to answer. USB ADB was available immediately, and once I had a shell it became clear that the frame was much closer to "low-end tablet with a custom launcher" than "sealed embedded appliance".
 
 Even better, `su` was present and working:
 
@@ -135,7 +135,7 @@ Nova Launcher installed cleanly. So did Firefox, Fully Kiosk Browser, and a smal
 
 Once a replacement `HOME` experience was proven to work, I disabled the OEM launcher, the update services, and a couple of factory-test packages rather than deleting anything outright. That became the general rule for the whole project: do the reversible thing first.
 
-On cheap Android hardware, "I can remove it later" is usually much wiser than "I should rip it out immediately".
+On low-end Android hardware, "I can remove it later" is usually much wiser than "I should rip it out immediately".
 
 <Notice type="tip">
   The safest kind of hacking on junk hardware is usually subtractive. Disable
